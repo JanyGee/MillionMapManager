@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
                     * Don't worry about the indent, we strip it!
                    DESC
 
-  s.homepage     = "https://github.com/JanyGee/MillionMapManager"
+  s.homepage     = "https://github.com/JanyGee/MillionMapManager/JanyMapView"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
