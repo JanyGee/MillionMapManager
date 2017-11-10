@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "JanyMapView"
+  s.name         = "MillionMapManager"
   s.version      = "0.0.1"
   s.summary      = "地图轨迹生成，实时轨迹绘制"
 
