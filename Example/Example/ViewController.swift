@@ -13,6 +13,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let map = MapView()
+        map.frame = view.frame
+        view.addSubview(map)
+        
     }
 
     override func didReceiveMemoryWarning() {

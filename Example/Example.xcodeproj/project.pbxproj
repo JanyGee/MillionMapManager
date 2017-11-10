@@ -12,6 +12,8 @@
 		3190F9921FB52D9D00372676 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3190F9901FB52D9D00372676 /* Main.storyboard */; };
 		3190F9941FB52D9D00372676 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3190F9931FB52D9D00372676 /* Assets.xcassets */; };
 		3190F9971FB52D9D00372676 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3190F9951FB52D9D00372676 /* LaunchScreen.storyboard */; };
+		3190F9C91FB539A200372676 /* JanyLocationConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3190F9C81FB539A200372676 /* JanyLocationConverter.swift */; };
+		3190F9CB1FB539BB00372676 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3190F9CA1FB539BB00372676 /* MapView.swift */; };
 		835D3B8BD1011ABB3F92A3FE /* libPods-Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F7043A66546D630CD25E601 /* libPods-Example.a */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +26,8 @@
 		3190F9931FB52D9D00372676 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3190F9961FB52D9D00372676 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3190F9981FB52D9D00372676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3190F9C81FB539A200372676 /* JanyLocationConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JanyLocationConverter.swift; sourceTree = "<group>"; };
+		3190F9CA1FB539BB00372676 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		77FD7D56E72C2D1BFA2A0528 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
 		D661B3C7972D0AA431A3DC62 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -61,6 +65,7 @@
 		3190F98B1FB52D9D00372676 /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				3190F9C01FB533E500372676 /* JanyMapView */,
 				3190F98C1FB52D9D00372676 /* AppDelegate.swift */,
 				3190F98E1FB52D9D00372676 /* ViewController.swift */,
 				3190F9901FB52D9D00372676 /* Main.storyboard */,
@@ -69,6 +74,16 @@
 				3190F9981FB52D9D00372676 /* Info.plist */,
 			);
 			path = Example;
+			sourceTree = "<group>";
+		};
+		3190F9C01FB533E500372676 /* JanyMapView */ = {
+			isa = PBXGroup;
+			children = (
+				3190F9CA1FB539BB00372676 /* MapView.swift */,
+				3190F9C81FB539A200372676 /* JanyLocationConverter.swift */,
+			);
+			name = JanyMapView;
+			path = ../../JanyMapView;
 			sourceTree = "<group>";
 		};
 		A7B55EB7639061F0847183FE /* Pods */ = {
@@ -217,6 +232,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3190F9C91FB539A200372676 /* JanyLocationConverter.swift in Sources */,
+				3190F9CB1FB539BB00372676 /* MapView.swift in Sources */,
 				3190F98F1FB52D9D00372676 /* ViewController.swift in Sources */,
 				3190F98D1FB52D9D00372676 /* AppDelegate.swift in Sources */,
 			);
@@ -359,6 +376,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 42NQDJ4LVM;
 				INFOPLIST_FILE = Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Million.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -375,6 +393,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 42NQDJ4LVM;
 				INFOPLIST_FILE = Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Million.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
