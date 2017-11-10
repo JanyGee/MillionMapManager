@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "MillionMapManager"
+  s.name         = "JanyMapView"
   s.version      = "0.0.1"
   s.summary      = "地图轨迹生成，实时轨迹绘制"
 
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
                     * Don't worry about the indent, we strip it!
                    DESC
 
-  s.homepage     = "https://github.com/JanyGee/MillionMapManager/JanyMapView"
+  s.homepage     = "https://github.com/JanyGee/MillionMapManager"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
